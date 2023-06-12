@@ -267,3 +267,37 @@
   text-decoration: none;
 }
 /* -------------Footer Css---------- */
+
+.sidenav a.menu-item {
+  background-color: #ffffff; /* background color for menu items */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* custom box shadow */
+  /* Add any other styles you want for the menu items */
+  width:165px;
+}
+.sidenav {
+  width: 200px;
+  height: 450px;
+  background-color: #ffffff; /* sidebar background color */
+  overflow-y: scroll; /* add scroll bar if content exceeds height */
+  position: absolute;
+}
+.sidenav::-webkit-scrollbar {
+  background-color: #FCD0C9;
+}
+
+.sidenav a {
+  display: block;
+  color: #000000; /* link color */
+  padding: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.sidenav a.menu-item:hover {
+  background-color: #FCD0C9; /* hover color */
+  color: #ffffff; /* hover text color */
+}
+
+.sidenav a:hover {
+  background-color: #FCD0C9; /* hover color */
+}
