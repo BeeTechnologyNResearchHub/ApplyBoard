@@ -422,6 +422,9 @@
   padding: 0px 0px;
   margin: 0px;
   font-size: small;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 .partnership .request-board{
   font-size: xx-small;
